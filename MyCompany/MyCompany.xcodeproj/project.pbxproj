@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1137155725C9EBAF005EF058 /* TrainingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137155625C9EBAF005EF058 /* TrainingClass.swift */; };
 		11900A6425C8E76700FE06C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11900A6325C8E76700FE06C6 /* AppDelegate.swift */; };
 		11900A6625C8E76700FE06C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11900A6525C8E76700FE06C6 /* SceneDelegate.swift */; };
-		11900A6825C8E76700FE06C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11900A6725C8E76700FE06C6 /* ViewController.swift */; };
+		11900A6825C8E76700FE06C6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11900A6725C8E76700FE06C6 /* HomeViewController.swift */; };
 		11900A6B25C8E76700FE06C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11900A6925C8E76700FE06C6 /* Main.storyboard */; };
 		11900A6E25C8E76700FE06C6 /* MyCompany.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11900A6C25C8E76700FE06C6 /* MyCompany.xcdatamodeld */; };
 		11900A7025C8E76900FE06C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11900A6F25C8E76900FE06C6 /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1137155625C9EBAF005EF058 /* TrainingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingClass.swift; sourceTree = "<group>"; };
 		11900A6025C8E76700FE06C6 /* MyCompany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCompany.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11900A6325C8E76700FE06C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11900A6525C8E76700FE06C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11900A6725C8E76700FE06C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11900A6725C8E76700FE06C6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		11900A6A25C8E76700FE06C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11900A6D25C8E76700FE06C6 /* MyCompany.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCompany.xcdatamodel; sourceTree = "<group>"; };
 		11900A6F25C8E76900FE06C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,12 +62,13 @@
 			children = (
 				11900A6325C8E76700FE06C6 /* AppDelegate.swift */,
 				11900A6525C8E76700FE06C6 /* SceneDelegate.swift */,
-				11900A6725C8E76700FE06C6 /* ViewController.swift */,
+				11900A6725C8E76700FE06C6 /* HomeViewController.swift */,
 				11900A6925C8E76700FE06C6 /* Main.storyboard */,
 				11900A6F25C8E76900FE06C6 /* Assets.xcassets */,
 				11900A7125C8E76900FE06C6 /* LaunchScreen.storyboard */,
 				11900A7425C8E76900FE06C6 /* Info.plist */,
 				11900A6C25C8E76700FE06C6 /* MyCompany.xcdatamodeld */,
+				1137155625C9EBAF005EF058 /* TrainingClass.swift */,
 			);
 			path = MyCompany;
 			sourceTree = "<group>";
@@ -140,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11900A6825C8E76700FE06C6 /* ViewController.swift in Sources */,
+				11900A6825C8E76700FE06C6 /* HomeViewController.swift in Sources */,
+				1137155725C9EBAF005EF058 /* TrainingClass.swift in Sources */,
 				11900A6425C8E76700FE06C6 /* AppDelegate.swift in Sources */,
 				11900A6625C8E76700FE06C6 /* SceneDelegate.swift in Sources */,
 				11900A6E25C8E76700FE06C6 /* MyCompany.xcdatamodeld in Sources */,
