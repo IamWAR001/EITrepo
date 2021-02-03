@@ -10,15 +10,9 @@ import UIKit
 class HomeViewController: UIViewController {
     @IBOutlet weak var topLabel: UILabel!
     
-    override func viewDidLoad() {
-
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        performSegue(withIdentifier: "goToResults", sender: self)
     }
-    
-    
-
-    
 }
 
 
