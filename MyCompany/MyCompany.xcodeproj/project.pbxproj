@@ -50,6 +50,7 @@
 			children = (
 				11900A6725C8E76700FE06C6 /* HomeViewController.swift */,
 				1137155C25CA4C98005EF058 /* ResultViewController.swift */,
+				1144490925CC45AE0012BA9B /* Models */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -90,7 +91,6 @@
 				11900A7125C8E76900FE06C6 /* LaunchScreen.storyboard */,
 				11900A7425C8E76900FE06C6 /* Info.plist */,
 				11900A6C25C8E76700FE06C6 /* MyCompany.xcdatamodeld */,
-				1144490925CC45AE0012BA9B /* Models */,
 			);
 			path = MyCompany;
 			sourceTree = "<group>";

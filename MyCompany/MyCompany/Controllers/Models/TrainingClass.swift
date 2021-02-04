@@ -19,6 +19,10 @@ class TrainingClass {
         }
     }
     
+    init() {
+        classSize = 0
+    }
+    
     
     // this is a type of func
     func addEmployeeToGroup(employee: FieldEmployee){
@@ -39,6 +43,7 @@ class TrainingClass {
     func howManyInGroup() -> Int {
         return classSize
     }
+    
     
     
 }
