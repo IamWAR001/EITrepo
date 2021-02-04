@@ -11,10 +11,11 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var topLabel: UILabel!
     @IBOutlet weak var confirmButton: UIButton!
     
-//    var selectedEmployee = FieldEmployee?
+    var selectedEmployee : FieldEmployee?
     
         override func viewDidLoad() {
         super.viewDidLoad()
+            topLabel.text = "Your Class is empty"
         
         
     }
