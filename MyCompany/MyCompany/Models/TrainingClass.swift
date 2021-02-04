@@ -13,13 +13,16 @@ class TrainingClass {
     var className : String = ""
     var classSize : Int
     
-    var Fes : [FieldEmployees] = [FieldEmployees]()
-    
-    init() {
-        classSize = 0
+    var Fes = [FieldEmployee]() {
+        didSet {
+            classSize = Fes.count
+        }
     }
-                   // this is a type of func
-    func addEmployeeToGroup(employee: FieldEmployees){
+    
+    
+    // this is a type of func
+    func addEmployeeToGroup(employee: FieldEmployee){
+        print("Adding employee")
         Fes.append(employee)
         classSize = Fes.count
     }
@@ -36,4 +39,10 @@ class TrainingClass {
     func howManyInGroup() -> Int {
         return classSize
     }
+    
+    
 }
+
+
+
+
